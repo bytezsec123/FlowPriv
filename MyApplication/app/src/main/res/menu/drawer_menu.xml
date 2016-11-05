@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/home_id"
+        android:title="Home"
+        android:icon="@drawable/ic_launcher"
+        ></item>
+        <item
+        android:id="@+id/home_message"
+        android:title="Upcoming"
+        android:icon="@drawable/message_launcher"
+        ></item>
+        <item
+        android:id="@+id/home_settings"
+        android:title="Recreation"
+        android:icon="@drawable/settings_launcher"
+        ></item>
+    </group>
+    <item android:title="Social">
+    <menu>
+    <item
+    android:title="Entertainment"
+    android:id="@+id/home_addtogroup"
+        android:icon="@drawable/addtogroup_launcher"
+    ></item>
+    <item
+        android:title="Recreation"
+    android:id="@+id/home_group"
+    android:icon="@drawable/group_launcher"
+    ></item>
+        <item
+            android:title="setting"
+            android:id="@+id/home_share"
+            android:icon="@drawable/share_launcher"
+        ></item>
+    </menu>
+    </item>
+</menu>
